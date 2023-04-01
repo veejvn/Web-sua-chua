@@ -1,0 +1,58 @@
+.image-left img,
+.image-left video {
+    float: left;
+    width: 30%;
+}
+
+.image-left p,
+.image-right p {
+    margin: 0;
+    width: 69%;
+}
+
+.image-left p {
+    float: right;
+}
+
+.image-right img,
+.image-right video {
+    width: 30%;
+    float: right;
+}
+
+.image-right p {
+    float: left;
+}
+
+.detail {
+    margin-bottom: 5px;
+    padding: 0 5px;
+    text-align: justify;
+}
+
+.col_list {
+    column-count: 2;
+}
+
+h3.break-column {
+    break-before: column;
+}
+
+.order-step {
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.order-step div {
+    display: inline-block;
+    border: 1px solid #ed4190;
+    border-radius: 5px;
+    padding-top: 5px;
+    width: 24%;
+}
+section {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}

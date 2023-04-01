@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon.ico"
+      type="image/vnd.microsoft.icon"
+    />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="js/script.js" type="text/js">
+    <script src="https://kit.fontawesome.com/27c1d0493b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <img id="header-img1" src="images-css/header-img1.png" alt="" />
+      <img id="header-img2" src="images-css/header-img2.png" alt="" />
+      <img id="header-img3" src="images-css/header-img3.png" alt="" />
+      <a href="trangchu.html"><img src="images/logo.png" alt="" id="logo" /></a>
+      <nav>
+        <a href="trangchu.html">Trang chủ</a>
+        <a href="gioithieu.html">Giới Thiệu</a>
+        <a href="sanpham.html">Sản Phẩm</a>
+        <a href="tintuc.html">Tin Tức</a>
+        <a href="dangnhap.html">Đăng Nhập</a>
+        <a href="dangky.html">Đăng Ký</a>
+        <a href="lienhe.html">Liên Hệ</a>
+        <div class="search-container">
+          <form action="#">
+            <div class="input-container">
+              <input
+                id="search"
+                class="search-input"
+                type="text"
+                placeholder="Nhập nội dung cần tìm... "
+                name="search"
+              />
+              <i class="fa fa-search icon-white"></i>
+              <i class="fa fa-shopping-cart icon-pink"></i>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <form
+          action=""
+          method="post"
+          enctype="application/x-www-form-urlencoded"
+        >
+          <fieldset>
+            <legend><b>Đăng nhập</b></legend>
+            <table>
+              <tr>
+                <td colspan="2" align="center">
+                  <img src="images/dangnhap/userlogin.png" alt="" width="50%"/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email"><b>Email</b></label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="Nhập email"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="psw"><b>Mật khẩu</b></label>
+                </td>
+                <td>
+                  <input
+                    type="password"
+                    id="psw"
+                    name="psw"
+                    placeholder="Nhập mật khẩu"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="submit" value="Đăng Nhập" />
+                  <input type="reset" value="Hủy" />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <b>Bạn quên</b> <a href=""><b>Mật Khẩu?</b></a>
+                  <input type="checkbox" name="remember"/> <b>Ghi nhớ cho lần đăng nhập sau</b>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 Bản quyền thuộc về FreeezeVN.
+        <a href="#" class="social-icon"><i class="fa fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fa fa-pinterest"></i></a>
+        <a href="#logo" class="gotop"
+          ><img src="images-css/top.png" alt="" width="60"
+        /></a>
+      </p>
+    </footer>
+  </body>
+</html>
