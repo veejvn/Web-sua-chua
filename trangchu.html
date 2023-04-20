@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="css/style1.css" type="text/css" />
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/27c1d0493b.js" crossorigin="anonymous"></script>
   </head>
 
@@ -31,7 +31,7 @@
         <a href="dangky.html">Đăng Ký</a>
         <a href="lienhe.html">Liên Hệ</a>
         <div class="search-container">
-          <form action="#">
+          <form method="get" action="timkiem.html" id="frm-search">
             <div class="input-container">
               <input
                 id="search"
@@ -40,9 +40,10 @@
                 placeholder="Nhập nội dung cần tìm... "
                 name="search"
               />
-              <i class="fa fa-search icon-white"></i>
+              <button id="icon-search"><i class="fa fa-search icon-white"></i></button>
+              
               <i class="fa fa-shopping-cart icon-pink"></i>
-            </div>
+            </div> 
           </form>
         </div>
       </nav>
