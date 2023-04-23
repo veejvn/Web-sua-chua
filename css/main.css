@@ -249,3 +249,6 @@ h3 {
 #icon-search{
     border: none;
 }
+img{
+    border-radius: 5px;
+}

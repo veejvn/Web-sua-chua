@@ -1,44 +1,8 @@
-.section-same {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-}
-
-.div-sp {
-    display: flex;
-    flex: 1;
-    margin: 3px;
-    border: 1px solid #dbd7d9;
+.image-gt{
     border-radius: 5px;
-    flex-direction: column;
-
-    background-image: linear-gradient(to top, #cddc39 0%, transparent 10%);
-}
-
-.h2-sp {
-    text-align: center;
+    width: 100%;
 }
 
 .detail{
-    margin-bottom: 0;
     text-align: justify;
-}
-.span-sp {
-    display: block;
-    flex: 1;
-    margin: 4px;
-    padding: 3px;
-    width: 100%;
-    text-align: center;
-    line-height: 2;
-}
-
-.image-sp {
-    display: block;
-    margin: auto;
-}
-
-.main-sp {
-    margin-top: 20px;
 }

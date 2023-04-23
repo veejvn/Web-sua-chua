@@ -1,0 +1,40 @@
+.icon-location {
+    padding: 4px;
+    min-width: 30px;
+    color: #ed4190;
+    text-align: center;
+    background: #cddc39;
+    cursor: pointer;
+}
+
+.dc {
+    font-weight: bold;
+}
+
+.gopy {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+.table-lh {
+    margin: auto;
+}
+
+.icon-user,
+.icon-mail,
+.icon-topic,
+.icon-content {
+    padding: 4px;
+    min-width: 30px;
+    color: #fff;
+    text-align: center;
+    background: #cddc39;
+    cursor: pointer;
+}
+
+.icon-content {
+    margin-top: 100px;
+}

@@ -1,8 +1,25 @@
-.image-gt{
-    border-radius: 5px;
-    width: 750px;
+.image-right p {
+    margin: 0;
+    width: 69%;
+    float: left;
 }
-
-.detail{
+.image-right img{
+    width: 30%;
+    float: right;
+}
+div{
+    display: inline-block;
+}
+.img-dqt{
+    width: 100%;
+}
+p{
     text-align: justify;
+}
+.icon-face{
+    padding: 4px;
+    min-width: 30px;
+    color: yellow;
+    text-align: center;
+    cursor: pointer;
 }
