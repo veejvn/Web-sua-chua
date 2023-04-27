@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="css/style7.css" type="text/css" />
     <script src="js/script.js" defer></script>
-    <script src="https://kit.fontawesome.com/27c1d0493b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/27c1d0493b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -46,13 +49,14 @@
         </div>
       </nav>
     </header>
-    <main class="one-col main-sp">
+    <main class="one-col">
       <article>
         <h1>Liên Hệ</h1>
         <p>
-           <i class="fa fa-location-dot icon-location"></i> <span class="dc">Địa chỉ: 0123, Tòa
-            Nhà ABC, TP. Cần Thơ</span> Nếu bạn có góp ý, vui lòng liên hệ bằng thứ điện tử hoặc sử dụng biểu
-          mẫu bên dưới. Xin cám ơn.
+          <i class="fa fa-location-dot icon-location"></i>
+          <span class="dc">Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</span> Nếu
+          bạn có góp ý, vui lòng liên hệ bằng thứ điện tử hoặc sử dụng biểu mẫu
+          bên dưới. Xin cám ơn.
         </p>
         <form
           action=""
@@ -63,28 +67,42 @@
             <legend class="gopy"><h1>Góp ý</h1></legend>
             <table class="table-lh">
               <tr>
-                <td><i class="fa-solid fa-user icon-user"></i></td>
+                <td>
+                  <label for="hoten"
+                    ><i class="fa-solid fa-user icon-user"></i
+                  ></label>
+                </td>
                 <td>
                   <input
+                    required
                     type="text"
                     id="hoten"
                     placeholder="Vui lòng nhập Họ tên của bạn"
+                    minlength="4"
                   />
                 </td>
               </tr>
               <tr>
-                <td><i class="fa-solid fa-envelope icon-mail"></i></td>
+                <td>
+                  <label for="email"
+                    ><i class="fa-solid fa-envelope icon-mail"></i
+                  ></label>
+                </td>
                 <td>
                   <input
-                    type="text"
+                    required
+                    type="email"
                     id="email"
                     placeholder="Vui lòng nhập địa chỉ Email"
+                    pattern=" ^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
                   />
                 </td>
               </tr>
               <tr>
                 <td>
-                  <i class="fa-sharp fa-solid fa-list icon-topic"></i>
+                  <label for="chude"
+                    ><i class="fa-sharp fa-solid fa-list icon-topic"></i
+                  ></label>
                 </td>
                 <td>
                   <select name="chude" id="chude" size="1">
@@ -95,15 +113,21 @@
               </tr>
               <tr>
                 <td>
-                  <i class="fa-sharp fa-solid fa-file fa-flip-vertical icon-content"></i>
+                  <label for="noidung"
+                    ><i
+                      class="fa-sharp fa-solid fa-file fa-flip-vertical icon-content"
+                    ></i
+                  ></label>
                 </td>
                 <td>
                   <textarea
+                    required
                     name="noidung"
                     id="noidung"
                     cols="50"
                     rows="7"
                     placeholder="Nội dung cần liên hệ"
+                    minlength="10"
                   ></textarea>
                 </td>
               </tr>

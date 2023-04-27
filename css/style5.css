@@ -1,0 +1,17 @@
+.dangnhap{
+    text-align: center;
+}
+fieldset {
+    border: none;
+}
+.table-dn{
+    margin: auto;
+}
+.icon-mail,.icon-ps{
+    padding: 4px;
+    min-width: 30px;
+    color: #fff;
+    text-align: center;
+    background: #cddc39;
+    cursor: pointer;
+}
