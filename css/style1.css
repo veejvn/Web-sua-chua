@@ -51,6 +51,12 @@ h3.break-column {
     padding-top: 5px;
     width: 24%;
 }
+.img-order{
+    width: 100px;
+}
+.order-section{
+    display: block;
+}
 section {
     display: inline-block;
     padding: 0;
